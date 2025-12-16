@@ -2,8 +2,8 @@
 
 ## Module: Web Technologies  
 University of Central Lancashire
-##Name: Yiannos Zachariades
-##G-number: 21305657
+Name: Yiannos Zachariades
+G-number: 21305657
 
 ---
 

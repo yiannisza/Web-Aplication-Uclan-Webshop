@@ -2,6 +2,8 @@
 
 ## Module: Web Technologies  
 University of Central Lancashire
+##Name: Yiannos Zachariades
+##G-number: 21305657
 
 ---
 
@@ -9,7 +11,7 @@ University of Central Lancashire
 This project is a client-side web application built using HTML, CSS, and JavaScript.  
 It represents a simple “Student Shop” where users can browse products, view item details, and manage a shopping cart.
 
-All functionality is handled within the browser using JavaScript, sessionStorage, and localStorage. No server-side code is used.
+All functionality is handled within the browser using JavaScript, sessionStorage, and localStorage. 
 
 ---
 
@@ -17,9 +19,9 @@ All functionality is handled within the browser using JavaScript, sessionStorage
 
 ### 1. Home Page (Index.html)
 - Displays a welcome message introducing the Students’ Union.
-- Includes an embedded MP4 video.
-- Includes an embedded Vimeo video using an iframe.
-- Provides navigation links to Products and Cart pages.
+- Includes an  MP4 video.
+- Includes an iframe video.
+- Provides navigation links Home,Product, Cart
 
 ---
 
@@ -30,13 +32,13 @@ All functionality is handled within the browser using JavaScript, sessionStorage
 - Users can:
   - View all products.
   - Filter products to show only items that are in stock.
-  - Click on a product to view further details.
+  - Click on a product to view more details.
   - Add products directly to the cart.
 
 ---
 
 ### 3. Item Page (item.html)
-- Displays detailed information about a single selected product.
+- Displays detailed about the product
 - Product data is passed from the Products page using sessionStorage.
 - Shows:
   - Product image
@@ -59,7 +61,7 @@ All functionality is handled within the browser using JavaScript, sessionStorage
   - Price
   - Quantity
 - Users can remove items from the cart.
-- Displays a running total of the cart value.
+- Displays totalprice  of the cart value.
 - Includes a discount code feature:
   - Code `SAVE20` applies a 20% discount to the cart total.
 
@@ -78,27 +80,21 @@ All functionality is handled within the browser using JavaScript, sessionStorage
 - Dynamic product rendering using DOM manipulation.
 - Stock-based filtering of products.
 - Session-based storage of selected products.
-- Persistent shopping cart using localStorage.
+- Shopping cart using localStorage.
 - Cart item quantity management.
 - Discount code validation and application.
-- Real-time cart total calculation.
 
 ---
 
 ## Validation
 - HTML and CSS code has been checked using the W3C Validator.
 - No critical validation errors were found.
-- Minor warnings (if any) do not affect functionality.
-
 ---
 
 ## Unresolved Issues / Limitations
 - No checkout or payment functionality is implemented (not required).
 - Coupon codes are hardcoded and limited to one example (`SAVE20`).
 - Accessibility features such as ARIA labels could be improved further.
+- GitHub has not been explored and adopted, only used for the Readme file
 
 ---
-
-## Conclusion
-This project meets all required “should” criteria and implements several “could” features.  
-It demonstrates the use of JavaScript for dynamic content, storage APIs for state management, and structured HTML/CSS for layout and styling.
